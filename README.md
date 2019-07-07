@@ -8,8 +8,11 @@ Allowing us to obtain the best talent for the best position.
 
 ## Security Draft level 1.
 ![Draft](https://github.com/FernandaOchoa/Hackapalooza/blob/master/draft.png)
-## Terms & Conditions
-![Terminos y Condiciones](https://sites.google.com/view/ale-rhbot/p%C3%A1gina-principal)
 
-## Privacy Policy
-![Politica de Privacidad](https://sites.google.com/view/privacy-policy-alebot/p%C3%A1gina-principal)
+As a part of our Security Strategy we provide the Terms & Conditions also our Privacy Policy for the Data that we collect from the user interactions.
+
+* ## Terms & Conditions
+    ![Terminos y Condiciones](https://sites.google.com/view/ale-rhbot/p%C3%A1gina-principal)
+
+* ## Privacy Policy
+    ![Politica de Privacidad](https://sites.google.com/view/privacy-policy-alebot/p%C3%A1gina-principal)
