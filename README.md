@@ -11,14 +11,26 @@ You can interact with ale [here](https://www.facebook.com/AleRHBot/)
 
 
 ## Main problems in the recruitment process.
+According to [Forbes Magazine](https://www.forbes.com.mx/estas-son-las-profesiones-con-mayor-rotacion-laboral/) The sectors with the highest turnover of talent are technology (software) with a rate of 13.2% and the retail sector with 13.0%.
 
-* Bonding Talent -> Industry
-* Employability
-* Personnel Rotation
+* Bonding Talent -> Industry 45%
+* Employability 36%
+* Personnel Rotation 13.2%
 * Costs
 * Training
 
+And if you think that this is not a problem in Mexico, the turnover figures of personnel have reached [historical levels](https://www.elfinanciero.com.mx/bajio/rotacion-laboral-alcanza-niveles-criticos-en-el-bajio).
+
+San Luis Potosi 7.6%
+Puebla 6.94%
+Guanajuato 5.73%
+
+“La región Bajío está teniendo sus máximos históricos. Esta región tiene el reto más grande del país en rotación y retención de talento. Ya hay plantas y ciudades del Bajío que ya alcanzaron un nivel de rotación del 70 u 80 por ciento anual, pero hay otras que tienen niveles estables que ayudan a que la media sea menor. Saltillo tiene el problema más grande, pero en conjunto, por el volumen de vacantes y el crecimiento de compañías, el reto de rotación más grande está en el Bajío”
+
+
 ## Project
+According to [The Huffington Post](https://www.huffpost.com/entry/give-them-what-they-want_b_8783712), a millennial employee costs between 15 and 25 thousand dollars; However, when that vacancy is in constant movement, costs rise.
+
 Intelligent assistant capable of identifying talent through a cognitive model making a match between the most essential work skills such as: Flexibility of time and location, Leadership, Passion and Work under passion, with the help of an analysis of social networks evaluating the behavior and looking for matches with the open data of the SESNA (Secretary of the National Anticorruption System).
 
 Allowing us to obtain the best talent for the best position.
