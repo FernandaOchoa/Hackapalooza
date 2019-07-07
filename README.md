@@ -37,10 +37,10 @@ Allowing us to obtain the best talent for the best position.
 As a part of our Security Strategy we provide the Terms & Conditions also our Privacy Policy for the Data that we collect from the user interactions.
 
 * ## Terms & Conditions
-    ![Terminos y Condiciones](https://sites.google.com/view/ale-rhbot/p%C3%A1gina-principal)
+    [Terminos y Condiciones](https://sites.google.com/view/ale-rhbot/p%C3%A1gina-principal)
 
 * ## Privacy Policy
-    ![Politica de Privacidad](https://sites.google.com/view/privacy-policy-alebot/p%C3%A1gina-principal)
+    [Politica de Privacidad](https://sites.google.com/view/privacy-policy-alebot/p%C3%A1gina-principal)
  
 ## Solution
 Here you can find all de development that we're realizing here in #Hackapalooza 2019.
