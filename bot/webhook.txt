@@ -1,0 +1,54 @@
+'use strict';
+
+const functions = require('firebase-functions');
+const {
+    WebhookClient
+} = require('dialogflow-fulfillment');
+const {
+    Card,
+    Suggestion
+} = require('dialogflow-fulfillment');
+
+process.env.DEBUG = 'dialogflow:debug'; // enables lib debugging statements
+
+exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, response) => {
+    const agent = new WebhookClient({
+        request,
+        response
+    });
+    console.log('Dialogflow Request headers: ' + JSON.stringify(request.headers));
+    console.log('Dialogflow Request body: ' + JSON.stringify(request.body));
+
+    function estancia(agent){
+        //var parametros = request.body.queryResult.parameters;
+        agent.add("la mejor opcion que encontramos");
+        agent.add(new Card({
+          title: `Google Mexico`,
+          imageUrl: 'http://oi66.tinypic.com/md15qv.jpg',
+          text: 'Puesto: Desarrollo Web',
+          buttonText: 'Ir a Consultar la pagina',
+          buttonUrl: 'https://jobs.google.com/about/'
+         }));
+    }
+    
+    function empresa(agent){
+        
+        agent.add("El mejor candidato encontrado");
+        agent.add(new Card({
+          title: `Jacob Maldonado`,
+          imageUrl: 'http://oi64.tinypic.com/51yayw.jpg',
+          text: `Especialidad: Desarrollo Web`,
+          buttonText: 'Ponerte en contacto',
+          buttonUrl: 'https://www.facebook.com/jacob.maldonado.7'
+         }));
+        
+    }
+
+    // Run the proper function handler based on the matched Dialogflow intent name
+    let intentMap = new Map();
+    intentMap.set('Estancia', estancia);
+    intentMap.set('Empresa', empresa);
+    // intentMap.set('your intent name here', yourFunctionHandler);
+    // intentMap.set('your intent name here', googleAssistantHandler);
+    agent.handleRequest(intentMap);
+});

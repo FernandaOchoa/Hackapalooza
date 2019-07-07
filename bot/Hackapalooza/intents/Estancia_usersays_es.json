@@ -1,0 +1,50 @@
+[
+  {
+    "id": "80d5691b-bef8-4096-b528-dcf77f8ed1e1",
+    "data": [
+      {
+        "text": "estoy buscando @Empleo:Empleo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "275dcb09-7c20-4191-8e02-1d777624f352",
+    "data": [
+      {
+        "text": "busco @Empleo:Empleo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2440a2cf-1702-4588-a806-40cdd3dd8e11",
+    "data": [
+      {
+        "text": "necesito un @Empleo:Empleo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9515b5d0-7c19-48b9-a048-e2f4db794804",
+    "data": [
+      {
+        "text": "soy estudiante de @sys.any:carrera, me llamo @sys.any:nombre, estudio en @sys.any:escuela, mi correo es @sys.email:email, mi especialidad es @sys.any:especialidad, mis habilidades son @sys.any:habilidades, mis conocimientos son @sys.any:conocimientos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 0
+  }
+]

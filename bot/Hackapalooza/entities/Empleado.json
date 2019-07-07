@@ -1,0 +1,9 @@
+{
+  "id": "1a565315-521c-4553-859f-65ba4c3e966c",
+  "name": "Empleado",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "f80cf574-14d0-488a-a242-273dabdb8d60",
+    "data": [
+      {
+        "text": "necesito un @Empleado:Empleado",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b1a1fe6c-f0e3-4a7c-a1df-4cb6f1a65f30",
+    "data": [
+      {
+        "text": "busco @Empleado:Empleado",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ceff0fd8-bd55-41d3-9a56-f8ad5e0caccc",
+    "data": [
+      {
+        "text": "correo es @sys.email:empresa_correo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0affe917-8555-4f45-88e3-e90f182a95e4",
+    "data": [
+      {
+        "text": "los conocimientos que busco son @sys.any:conocimientos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d4de9cc5-637f-4382-b53f-27910654ae2b",
+    "data": [
+      {
+        "text": "el puesto es @sys.any:empresa_puesto",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "423cb56b-6c15-4ed7-bbff-6fc111db1f41",
+    "data": [
+      {
+        "text": "busco la especialidad de @sys.any:empresa_especialidad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0cea6fd7-a5ae-4048-8df0-b2b11980e7f0",
+    "data": [
+      {
+        "text": "los requerimientos son @sys.any:empresa_habilidades",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7f906909-3f67-4345-8f4d-698b5df1ce44",
+    "data": [
+      {
+        "text": "busco alguien que haga @sys.any:empresa_tareas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0c8e8de0-121e-48f7-807d-f7e62fc9b8ad",
+    "data": [
+      {
+        "text": "mi empresa es @sys.any:empresa_nombre,",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 0
+  }
+]

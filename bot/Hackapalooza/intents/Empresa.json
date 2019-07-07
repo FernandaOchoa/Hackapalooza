@@ -1,0 +1,142 @@
+{
+  "id": "c7448c33-5b22-4d76-8086-975109228268",
+  "name": "Empresa",
+  "auto": true,
+  "contexts": [
+    "individuo"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "85e04dc0-fcb2-4920-856d-059fe15f5e2a",
+          "required": true,
+          "dataType": "@Empleado",
+          "name": "Empleado",
+          "value": "$Empleado",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "¿Necesitas un empleado?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "85756fe0-26f8-4413-a3de-796a72dccd7f",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "empresa_nombre",
+          "value": "$empresa_nombre",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Ok, Proporcioname el nombre de tu empresa"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "efe45f7f-2470-42a4-b65c-7ce793bb3d31",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "empresa_puesto",
+          "value": "$empresa_puesto",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "¿Para que puesto lo ocupas?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "48b62049-9e13-4d53-bfd1-2c88ac22f2cb",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "conocimientos",
+          "value": "$conocimientos",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Dime los conocimientos que requiere el puesto"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "64a1b923-2343-4b28-a71b-b816cd30d5b5",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "empresa_especialidad",
+          "value": "$empresa_especialidad",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "¿Qué especialidad necesita tu puesto?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "781f583d-ea1a-4b58-a4f6-fe89ddce5dd3",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "empresa_tareas",
+          "value": "$empresa_tareas",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Dime las tareas que necesita cumplir el puesto"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "e2d896a9-e722-4e29-a717-ea22c360e91a",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "empresa_habilidades",
+          "value": "$empresa_habilidades",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Dime las habilidades que necesita ese puesto"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "8eaa2e7b-c652-4f9a-9993-c43396206f06",
+          "required": true,
+          "dataType": "@sys.email",
+          "name": "empresa_correo",
+          "value": "$empresa_correo",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Dime un correo de contacto"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "perfecto, buscare los candidatos"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
