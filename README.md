@@ -41,3 +41,19 @@ As a part of our Security Strategy we provide the Terms & Conditions also our Pr
 
 * ## Privacy Policy
     ![Politica de Privacidad](https://sites.google.com/view/privacy-policy-alebot/p%C3%A1gina-principal)
+ 
+## Solution
+Here you can find all de development that we're realizing here in #Hackapalooza 2019.
+
+* How we get all data and save it in to csv [here](https://github.com/IBM/pixiedust-facebook-analysis)
+* Bot Logic [here](https://github.com/FernandaOchoa/Hackapalooza/tree/master/bot/Hackapalooza)
+* Our Backend [here](https://github.com/FernandaOchoa/Hackapalooza/tree/master/bot/backendBot/app)
+* Fulfillment as a Webhook [here](https://github.com/FernandaOchoa/Hackapalooza/blob/master/bot/webhook.txt)
+* IBM Services Used
+    * Cloudant
+    * Natural Language Understanding
+    * Cloud Foundry
+    * Watson Studio
+        * Machine Learning
+        * Jupyter Notebooks
+ * Ale interface [here](https://www.facebook.com/AleRHBot/)
