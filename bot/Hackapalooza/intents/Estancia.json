@@ -1,0 +1,143 @@
+{
+  "id": "b7ee57c4-6a56-4600-b0fc-a0a2b48db78f",
+  "name": "Estancia",
+  "auto": true,
+  "contexts": [
+    "individuo"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "estancia",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "f3d78fa7-5451-4f41-9fb2-04f0f5d16f98",
+          "required": true,
+          "dataType": "@Empleo",
+          "name": "Empleo",
+          "value": "$Empleo",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "¿Buscas un Trabajo?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "f6c12ecf-e1c8-4bc5-9736-524cc0c7e855",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "carrera",
+          "value": "$carrera",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "¿Podrias decirme la carrera que estudiaste?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "bb5aef58-7c09-428d-b609-f913de65a505",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "nombre",
+          "value": "$nombre",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "¿Podrias decirme tu nombre?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "348d42f0-d94f-4ab9-a4b2-492fcdefb580",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "escuela",
+          "value": "$escuela",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "¿Podrias decirme en que escuela estudias?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "8d046865-40b7-40b5-aba0-80b006f86380",
+          "required": true,
+          "dataType": "@sys.email",
+          "name": "email",
+          "value": "$email",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Necesito tu correo electrónico, ¿me lo puedes proporcionar?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "df66337f-76ae-41f2-a390-d1ad63ad9bac",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "especialidad",
+          "value": "$especialidad",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "¿Tienes alguna especialidad ?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "042e25e2-bac8-4420-9a63-05871e003ae6",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "habilidades",
+          "value": "$habilidades",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Cuéntame un poco sobre tus habilidades y destrezas"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "01f65e14-f687-4e11-8263-07ce0364d193",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "conocimientos",
+          "value": "$conocimientos",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Cuéntame un poco sobre los conocimientos que tienes"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": "Perfecto, recibí tus datos"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
