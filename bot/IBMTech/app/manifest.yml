@@ -1,0 +1,4 @@
+---
+applications:
+ - name: hacka-palooza
+   memory: 128M
