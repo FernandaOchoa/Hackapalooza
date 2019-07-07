@@ -32,7 +32,13 @@ Allowing us to obtain the best talent for the best position.
 * Increase in Employability Indices
 
 ## Security Draft level 1.
-![Draft](https://github.com/FernandaOchoa/Hackapalooza/blob/master/draft.png)
+![Draft](https://github.com/FernandaOchoa/Hackapalooza/blob/master/security/draft.png)
+
+## Security Stages
+![Stage 1](https://github.com/FernandaOchoa/Hackapalooza/blob/master/security/2.png)
+![Stage 2](https://github.com/FernandaOchoa/Hackapalooza/blob/master/security/3.png)
+![Stage 3](https://github.com/FernandaOchoa/Hackapalooza/blob/master/security/4.png)
+![Stage 4](https://github.com/FernandaOchoa/Hackapalooza/blob/master/security/5.png)
 
 As a part of our Security Strategy we provide the Terms & Conditions also our Privacy Policy for the Data that we collect from the user interactions.
 
