@@ -1,5 +1,8 @@
 # Hackapalooza
-Project for IBM Hackapalooza Hackathon
+Project for IBM Hackapalooza Hackathon, Future Bravers.
+Hyper-Personalization UX Challenge.
+
+You can interact with ale [here](https://www.facebook.com/AleRHBot/)
 
 ## Future Bravers
 * [Fernanda Ochoa](https://github.com/FernandaOchoa)
