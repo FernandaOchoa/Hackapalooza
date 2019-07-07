@@ -49,7 +49,7 @@ Here you can find all de development that we're realizing here in #Hackapalooza 
 * Bot Logic [here](https://github.com/FernandaOchoa/Hackapalooza/tree/master/bot/Hackapalooza)
 * Our Backend [here](https://github.com/FernandaOchoa/Hackapalooza/tree/master/bot/backendBot/app)
 * Fulfillment as a Webhook [here](https://github.com/FernandaOchoa/Hackapalooza/blob/master/bot/webhook.txt)
-* IBM Services Used
+* IBM Services Used. Here you can [verify](https://github.com/FernandaOchoa/Hackapalooza/blob/master/bot/IBMTech/app/server.py)
     * Cloudant
     * Natural Language Understanding
     * Cloud Foundry
